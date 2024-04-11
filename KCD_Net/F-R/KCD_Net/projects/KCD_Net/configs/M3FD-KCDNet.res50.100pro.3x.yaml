@@ -1,0 +1,19 @@
+_BASE_: "Base-KCDNet.yaml"
+MODEL:
+  WEIGHTS: "/home/skj/zw/KCDNet/KCD_Net/F-R/KCD_Net/projects/KCD_Net/output/model_1.pth"
+  RESNETS:
+    DEPTH: 50
+    STRIDE_IN_1X1: False
+  KCDNet:
+    NUM_PROPOSALS: 150
+    NUM_CLASSES: 6
+DATASETS:
+  TRAIN: ("M3FD_train",)
+  TEST:  ("M3FD_val",)
+SOLVER:
+  STEPS: (210000, 250000)
+  MAX_ITER: 270000
+INPUT:
+  CROP:
+    ENABLED: False
+  FORMAT: "RGB"
