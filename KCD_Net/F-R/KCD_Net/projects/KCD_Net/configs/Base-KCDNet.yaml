@@ -1,6 +1,6 @@
 MODEL:
   META_ARCHITECTURE: "KCDNet"
-  WEIGHTS: "/home/skj/zw/KCDNet/KCD_Net/F-R/KCD_Net/projects/KCD_Net/output/model_1.pth"
+  WEIGHTS: "detectron2://ImageNetPretrained/torchvision/R-50.pkl"
   PIXEL_MEAN: [123.675, 116.280, 103.530]
   PIXEL_STD: [58.395, 57.120, 57.375]
   BACKBONE:
