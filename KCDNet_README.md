@@ -23,4 +23,4 @@ II.Tips
 2. We provide pre-loaded demo model parameters at: "KCDNet/KCD_Net/F-R/KCD_Net/projects/KCD_Net/output/model_1.pth". If you wish to train the model from scratch, you can change the config file's model parameters to Resnet-50's pre-trained parameters: "detectron2://ImageNetPretrained/torchvision/R-50.pkl".
 3. For any questions, please contact wanghaoyucumt@163.com.
 4. All the above library versions are based on the settings of the experimental computer. Please adjust the library versions accordingly for other computer settings.
-5. M3FD dataset and model_1.pth can be obtained at: https://pan.quark.cn/s/9d3c81b2730c  key：YjMS
+5. M3FD dataset and model_1.pth can be obtained at: https://pan.quark.cn/s/d436b4f418ef    Key：dn7u
